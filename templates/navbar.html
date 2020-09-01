@@ -1,0 +1,46 @@
+{% block navbar %}
+<!--Navbar -->
+<nav class="mb-1 navbar navbar-expand-lg navbar-dark light-blue lighten-2">
+  <a class="navbar-brand pl-2 text-white head" href="#"> Geethanjali</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent-555"
+  aria-controls="navbarSupportedContent-555" aria-expanded="false" aria-label="Toggle navigation">
+  <span class="navbar-toggler-icon"></span>
+</button>
+<div class="collapse navbar-collapse" id="navbarSupportedContent-555">
+  <ul class="navbar-nav mx-auto ">
+    
+    <li class="nav-item">
+      <a class="nav-link text-white" href="#about">About Me</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link text-white" href="#projects">Projects</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link text-white" href="#gallery">Gallery</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link text-white" href="#contact">Contact</a>
+    </li>
+    
+  </ul>
+  <!-- <ul class="navbar-nav ml-auto nav-flex-icons">
+    {% if request.user.is_authenticated %}
+    <form class="form-inline">
+      
+      
+      <div class="md-form my-0 text-dark">
+        <input class="form-control mr-sm-2 text-white" type="text" placeholder="Search" name="q" aria-label="Search">
+      </div>
+    </form>
+    <li class="nav-item">
+      <a class="nav-link text-white" href="#">Logout</a>
+    </li>
+{% else %}
+<li class="nav-item">
+  <a class="nav-link text-white" href="#">Login</a>
+</li>
+{% endif %}
+</ul> -->
+</div>
+</nav>
+{% endblock %}

@@ -1,0 +1,208 @@
+<!doctype html>
+
+{% extends 'base.html' %}
+{% load static %}
+{% block navbar %}
+<link rel="stylesheet" href="{% static 'gallery.css' %}">
+{% include 'navbar.html' %}
+{% endblock %}
+  {% block blog %}
+
+<div class="container-fluid" >
+  <div class="text-dark text-center intro card  blue-grey lighten-4 px-4 mt-3" >
+    <div class="py-5">
+
+      <h5 class="h1 blue-grey-text name mt-5 pt-5"> Geethanjali</h5>
+      <h2 class="card-title h2 my-4 py-2 blue-grey-text">Website Developer and an artist</h2>
+      <!-- <p class="mb-4 pb-5 px-md-5 mx-md-5 ">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur obcaecati vero aliquid libero doloribus ad, unde tempora maiores, ullam, modi qui quidem minima debitis perferendis vitae cumque et quo impedit.</p> -->
+     <!--  <a class="btn peach-gradient"><i class="fas fa-clone left"></i> View project</a>
+ -->
+    </div>
+  </div>
+</div>
+
+<div class="container " id="about">
+          <!-- <h3 class="text-center h2 mb-2">Projects</h3> -->
+          <div class="row mt-5">
+
+            <!-- <div class="col-12 col-sm-3 col-md-3 offset-lg-1 col-lg-3"> -->
+             <!--  <div class=" mb-4 mt-3 pl-3">
+                 <img class=" rounded-circle" alt="author" style="height: 225px; width: 200px; display: block;" src="{% static 'img/arts/me.jpg' %}">
+              </div> -->
+           <!--  </div> -->
+            <div class="offset-sm-1 offset-md-1 offset-lg-2 col-12 col-sm-10 pl-3 col-md-10 col-lg-8">
+              <div class=" mb-4">
+                <div class="card-body">
+                  <h3 class="card-title  text-center ml-3">About Me</h3>
+                  <p class="card-text text-justify">Hi, My name is  Geethanjali. I am working as a UI developer since three years. I love to draw, design and do crafts in my free time. Designing has always been a  favourite, whether it is artwork or website design for a specific project, I enjoy doing it. I am looking in search of new oppurtunities to work as fullstack web developer. Below are the sample projects and design which I have accomplished so far.</p>
+                  <div class="text-center">
+                  <a href="#contact"><button type="button" class="btn btn-info lighten-3"> Contact Me</button></a>
+                </div>
+                 </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+           
+        <!-- projects -->
+ <div class="album py-5" id="projects">
+        <div class="container">
+          <h3 class="text-center h2 mb-3">Projects</h3>
+          <div class="row">
+
+            <div class="col-md-4">
+              <div class="card mb-4 box-shadow">
+                <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail" alt="Thumbnail [100%x225]" style="height: 225px; width: 100%; display: block;" src="{% static 'blog1.JPG' %}" data-holder-rendered="true">
+                <div class="card-body">
+                  <span class="pull-right h6 pb-3">Category:Blog</span>
+                  <h3 class="card-title text-left pt-3">Connect</h3>
+                  <p class="card-text text-justify">This is a blog built using Django framework with features including Like, Comment,Tags,Categories....</p>
+                  <div class="text-center">
+                    <a href="http://geethanjali.pythonanywhere.com/" target="_blank"><button type="button" class="btn btn-info">View</button></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card mb-4 box-shadow">
+                <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail" alt="Thumbnail [100%x225]" src="{% static 'diary.jpg' %}" data-holder-rendered="true" style="height: 225px; width: 100%; display: block;">
+                <div class="card-body">
+                  <span class="pull-right h6 pb-3">Category:Diary</span>
+                  <h3 class="card-title text-left pt-3">Feelings</h3>
+                  <p class="card-text text-justify">This is an online diary website built using django helps users to maintain their personal diary along with privacy. </p>
+                 <div class="text-center">
+                    <a href="http://feelings1.pythonanywhere.com/" target="_blank"><button type="button" class="btn btn-info">View</button></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div> 
+
+<!-- gallery -->
+     <div class="container" id="gallery">
+      <div class="col-md-12">
+        <h3 class="bold h2 text-center">Gallery</h3>
+<div class="row">
+<hr>
+
+  <div class="gal">
+  
+  <img src="{% static 'img/arts/1.jpg' %}" alt="">
+  
+    <!-- <img src="https://preview.ibb.co/mWpE3Q/2.jpg" alt=""> -->
+    
+      <img src="{% static 'img/arts/2.jpg' %}" alt="">
+      
+      <img src="{% static 'img/arts/3.jpg' %}" alt="">
+      
+      
+    
+      <img src="{% static 'img/arts/5.jpg' %}" alt="">
+        <img src="{% static 'img/arts/6.jpg' %}" alt="">
+      
+      <img src="{% static 'img/arts/4.jpg' %}" alt="">
+      
+        <img src="{% static 'img/arts/7.jpg' %}" alt="">
+      
+        <img src="{% static 'img/arts/12.jpg' %}" alt="">
+        <img src="{% static 'img/arts/8.jpg' %}" alt="">
+        <img src="{% static 'img/arts/9.jpg' %}" alt="">
+        <img src="{% static 'img/arts/10.jpg' %}" alt="">
+        
+        <img src="{% static 'img/arts/11.jpg' %}" alt="">
+       <!--  <img src="https://preview.ibb.co/i0PmHk/1.jpg" alt="">
+        <img src="https://preview.ibb.co/i0PmHk/1.jpg" alt="">
+          <img src="https://preview.ibb.co/mysOxk/3.jpg" alt="">
+      
+            <img src="https://preview.ibb.co/mysOxk/3.jpg" alt="">
+      
+            <img src="https://preview.ibb.co/i0PmHk/1.jpg" alt="">
+        <img src="https://preview.ibb.co/i0PmHk/1.jpg" alt="">
+        <img src="https://preview.ibb.co/i0PmHk/1.jpg" alt=""> -->
+        <!-- <img src="https://preview.ibb.co/mWpE3Q/2.jpg" alt=""> -->
+        
+  </div>
+  
+</div>
+</div>
+     </div>
+
+     <!-- contact form -->
+<section class="contact " id="contact">
+
+    <h2 class="h1-responsive font-weight-bold text-center ">Contact Me</h2>
+
+    <p class="text-center w-responsive mx-auto mb-2">Feel free to get in touch with me..</p>
+<div class="container purple  lighten-5">
+    <div class="row">
+
+         <div class="offset-lg-2 col-md-9 mb-md-0 mb-5 col-lg-7">
+           <form method="POST">
+              {%csrf_token%}
+
+                <div class="row">
+
+                    <div class="col-md-6">
+                        <div class="md-form mb-0">
+                            <input type="text" class="form-control"  name="name" maxlength="255" required="" id="id_name">
+                            <label for="id_name" class="">Your name</label>
+                        </div>
+                    </div>
+              
+                    <div class="col-md-6">
+                        <div class="md-form mb-0">
+                            <input type="text" name="email" maxlength="255" required="" id="id_email" class="form-control">
+                            <label for="id_email" class="">Your email</label>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="md-form mb-0">
+                            <input type="text" name="subject" maxlength="255" required="" id="id_subject" class="form-control">
+                            <label for="id_subject" class="">Subject</label>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+
+                    <div class="col-md-12">
+
+                        <div class="md-form">
+                            <textarea type="text"name="message" cols="40" rows="10" required="" id="id_message" class="form-control md-textarea"></textarea>
+                            <label for="id_message">Your message</label>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="text-center text-md-left mb-3">
+                <button type="submit" class="btn btn-info">Send Message</button>
+            </div>
+            </form>
+
+            
+        </div> 
+
+    </div>
+  </div>
+
+</section>
+
+<!-- Footer -->
+<footer class="page-footer font-small light-blue lighten-2 mt-5">
+
+  <!-- Copyright -->
+  <div class="footer-copyright text-center py-3">© Copyright:
+    <a href="https://www.linkedin.com/in/geethanjali-labala/"> Geethanjali</a>
+  </div>
+  <!-- Copyright -->
+
+</footer>
+<!-- Footer -->
+ {% endblock %}
